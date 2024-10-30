@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 app.get('/check', (req,res)=>{
-    res.json({msg:"Healthy, The server is fine"});
+    res.json({msg:"Working Fine!"});
 })
 
 app.listen(3000,()=>{
