@@ -1,6 +1,6 @@
 services:
   backend:
-    image: vishal-811/k8s-first
+    image: vishal811/k8s-first:v1.0
     container_name: "first-docker"
     ports:
       - "3000:3000"
